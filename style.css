@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f8fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    text-align: start;
+}
+
+/* ================= CONTENT ================= */
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #444;
+}
+
+/* ================= BUTTON ================= */
+.btn {
+    background-color: #0f172a;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #6c76ea;
+}
+/* ================= DOWNLOAD ================= */
+.download {
+    gap: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* ================= SOCIAL ================= */
+.socials {
+    margin-bottom: 2rem;
+    margin-top: 20px;
+}
+.socials a {
+    background: black;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 10px;
+    font-size: 1.3rem;
+    color: #fbfbfb;
+    transition: 0.3s;
+}
+.socials i {
+    color: #fbfbfb;
+}
+.socials a:hover {
+    color: #4851d3;
+}
+
+/* ================= CARD ================= */
+.card {
+    width: 300px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+}
+.card-info {
+    padding: 15px;
+}
+.card-info h3 {
+    margin: 10px 0 5px;
+}
+.card-info p {
+    font-size: 14px;
+    color: gray;
+}
