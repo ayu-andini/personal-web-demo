@@ -1,0 +1,88 @@
+        * {
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+        }
+        body {
+        background: #f7f8fa;
+        color: #333;
+        }
+        .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        margin-top: 20px;
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        text-align: start;
+        }
+        h2 {
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        }
+        p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+        color: #444;
+        }
+        .btn {
+        background: #1c1f4c;
+        color: #fff;
+        border: none;
+        padding: 0.6rem 1.5rem;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+        }
+        .btn:hover {
+        background: #333872;
+        }
+        .download {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 8px;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        cursor: pointer;
+        font-size: 0.95rem;
+        }
+        .socials {
+        margin-bottom: 2rem;
+        }
+        .socials a {
+        margin: 0 10px;
+        font-size: 1.3rem;
+        color: #333;
+        transition: 0.3s;
+        }
+        .socials a:hover {
+        color: #1c1f4c;
+        }
+        .card {
+        background: #fff;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 50%;
+        margin: 0 auto;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        .card img {
+        width: 100%;
+        height: auto;
+        display: block;
+        }
+        .card-info {
+        padding: 10px 0 0 30px;
+        }
+        .card-info h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: 0.3rem;
+        }
+        .card-info p {
+        font-size: 0.85rem;
+        color: #777;
+        }
